@@ -1,0 +1,24 @@
+# Private Bentley/OpenRoads data and tester projects
+*.itl
+*.ordrule
+test_data/
+
+# Local environments and generated packages
+.venv/
+build-output/
+dist/
+build/
+*.spec
+
+# Python caches and test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editors and operating system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
